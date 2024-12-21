@@ -8,7 +8,15 @@
 
 <body>
 	<form method="post">
-		<label for="name"
+		<label for="name">Name</label>
+		<input placeholder="Name" type="text" id="name" minlength="3" maxlength="50">
+		<label for="portfolio">Portfolio</label>
+		<input placeholder="Portfolio" type="URL" id="portfolio"required>
+		<label for="favorite color">Favorite Color</label>
+		<input placeholder="Favorite Color" type="color" id="favColor">
+		<label for="likeness">Likeness</label>
+		<input placeholder="Likeness" type="range" id="likeness" min="1" max="100">
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
